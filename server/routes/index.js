@@ -3,12 +3,12 @@ import ReactDOMServer from 'react-dom/server';
 
 import author from "../middleware/author"
 import apiRoutes from "./apiRoutes"
-import appRoutes from "./siteRoutes"
+import siteRoutes from "./siteRoutes"
 
 const load = (app) => {
 
     app.use('/api', author, apiRoutes)
-    app.use('/site', appRoutes)
+    app.use('/site', siteRoutes)
 
 }
 
