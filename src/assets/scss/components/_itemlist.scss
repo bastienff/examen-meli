@@ -1,0 +1,63 @@
+.itemlist {
+  padding: 0 16px;
+
+  &__item {
+    padding: 16px;
+    white-space: nowrap;
+    display: block;
+    color: #666;
+    text-decoration: none;
+    border-bottom: 1px solid #ddd;
+    &:hover {
+      background-color: #f3f3f3;
+      cursor: pointer;
+    }
+  }
+
+  &__thumb {
+    display: inline-block;
+    margin-right: 16px;
+    width: 100%;
+    max-width: 180px;
+
+    img {
+      width: 180px;
+      height: 180px;
+      border-radius: 4px;
+    }
+  }
+
+  &__info {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    width: calc(80% - 180px);
+  }
+
+  &__precio {
+    font-size: 24px;
+    margin-bottom: 32px;
+  }
+
+  &__ciudad {
+    margin-top: 20px;
+    font-size: 12px;
+    display: inline-block;
+    vertical-align: top;
+    color: #999;
+    width: 20%;
+  }
+
+  &__despacho {
+    width: 18px;
+    height: 18px;
+    background-image: url("../img/shipping.png") center center no-repeat;
+    display: inline-block;
+    margin-left: 10px;
+  }
+
+  &__titulo {
+    font-size: 18px;
+    white-space: normal;
+  }
+}

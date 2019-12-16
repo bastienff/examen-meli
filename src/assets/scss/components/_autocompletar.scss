@@ -1,0 +1,31 @@
+.autocompletar {
+  position: absolute;
+  display: block;
+  width: 100%;
+  max-width: 800px;
+  margin: 0px;
+  background-color: #fff;
+  border: 1px solid #eee;
+  list-style-type: none;
+  padding: 0;
+
+  &__item {
+    padding: 0;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 100;
+    color: #999;
+
+    &:hover {
+      background-color: #eee;
+    }
+
+    a {
+      margin: 0px;
+      padding: 10px 20px;
+      display: block;
+      color: #999;
+      text-decoration: none;
+    }
+  }
+}
