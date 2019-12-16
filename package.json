@@ -2,7 +2,7 @@
   "name": "examen-meli-custom",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server/index.js",
   "scripts": {
     "build": "webpack --mode production",
     "ssr": "npm run build & nodemon server/index.js"
